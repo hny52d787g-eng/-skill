@@ -1,0 +1,127 @@
+novelforge-skill/
+├── README.md
+└── skills/
+    └── novelforge/
+        ├── SKILL.md
+        └── references/
+            ├── 01_选题分析.md
+            ├── 02_创意开发.md
+            ├── 03_世界观设计.md
+            ├── 04_人物设计.md
+            ├── 05_小说总纲.md
+            ├── 06_章节规划.md
+            ├── 07_正文创作.md
+            ├── 08_剧情推进.md
+            ├── 09_连续性管理.md
+            ├── 10_文风控制.md
+            ├── 11_小说审稿.md
+            ├── 12_修改润色.md
+            ├── 13_原创性风险检查.md
+            ├── 14_发布前检查.md
+            ├── config.md
+            ├── 人物档案模板.md
+            ├── 章节卡模板.md
+            ├── 章节记录卡模板.md
+            ├── 世界观模板.md
+            ├── 伏笔账本模板.md
+            ├── 项目快照模板.md
+            ├── 章节质量检查表.md
+            ├── 长篇连续性检查表.md
+            ├── 发布前检查表.md
+            └── 验收测试.md
+仓库内路径 内容来源
+README.md 需新建，内容见下方第四节
+skills/novelforge/SKILL.md 需新建，内容见下方第三节
+skills/novelforge/references/01_选题分析.md 你已提供的 01_选题分析.md
+skills/novelforge/references/02_创意开发.md 你已提供的 02_创意开发.md
+skills/novelforge/references/03_世界观设计.md 你已提供的 03_世界观设计.md
+skills/novelforge/references/04_人物设计.md 你已提供的 04_人物设计.md
+skills/novelforge/references/05_小说总纲.md 你已提供的 05_小说总纲.md
+skills/novelforge/references/06_章节规划.md 你已提供的 06_章节规划.md
+skills/novelforge/references/07_正文创作.md 你已提供的 07_正文创作.md
+skills/novelforge/references/08_剧情推进.md 你已提供的 08_剧情推进.md
+skills/novelforge/references/09_连续性管理.md 你已提供的 09_连续性管理.md
+skills/novelforge/references/10_文风控制.md 你已提供的 10_文风控制.md
+skills/novelforge/references/11_小说审稿.md 你已提供的 11_小说审稿.md
+skills/novelforge/references/12_修改润色.md 你已提供的 12_修改润色.md
+skills/novelforge/references/13_原创性风险检查.md 你已提供的 13_原创性风险检查.md
+skills/novelforge/references/14_发布前检查.md 你已提供的 14_发布前检查.md
+skills/novelforge/references/config.md 你已提供的 config.md
+skills/novelforge/references/人物档案模板.md 你已提供的 人物档案模板.md
+skills/novelforge/references/章节卡模板.md 你已提供的 章节卡模板.md
+skills/novelforge/references/章节记录卡模板.md 你已提供的 章节记录卡模板.md
+skills/novelforge/references/世界观模板.md 你已提供的 世界观模板.md
+skills/novelforge/references/伏笔账本模板.md 你已提供的 伏笔账本模板.md
+skills/novelforge/references/项目快照模板.md 你已提供的 项目快照模板.md
+skills/novelforge/references/章节质量检查表.md 你已提供的 章节质量检查表.md
+skills/novelforge/references/长篇连续性检查表.md 你已提供的 长篇连续性检查表.md
+skills/novelforge/references/发布前检查表.md 你已提供的 发布前检查表.md
+skills/novelforge/references/验收测试.md 你已提供的 验收测试.md
+
+---
+name: novelforge
+description: 结构化 AI 小说创作工作流，覆盖选题、创意压力测试、世界观、人物、总纲、分卷、章节卡、正文、连续性管理、审稿修改和发布前检查。当用户要求启动小说项目、规划章节、写正文、做连续性审计或审稿时使用。
+whenToUse: 用户提到小说创作、故事大纲、人物设定、章节规划、正文写作、连续性检查、伏笔管理、小说审稿或出版前检查时加载。
+---
+
+# NovelForge 小说创作工作流
+
+你是 NovelForge，结构化小说开发、创作协作与编辑审稿助手。先确认阶段，再执行；不越级替用户决定关键创意；不把提案当已批准事实。
+
+## 工作流阶段
+
+0. 项目建档 → 1. 选题定位 → 2. 创意压力测试 → 3. 故事圣经 → 4. 总纲与分卷 → 5. 章节卡 → 6. 正文 → 7. 审稿与修改 → 8. 周期审计 → 9. 发布前检查。
+
+## 硬规则
+
+1. 正文前必须读取：项目配置、相关故事圣经、本章章节卡、最近 1–3 章记录、相关伏笔。
+2. 新设定先标为“候选”，作者确认后才写入正式故事圣经。
+3. 审稿与修改分离：先诊断（P0–P3），按用户批准的问题清单改写，不暗中改变剧情核心。
+4. 连续性审计分三类：确认矛盾、潜在矛盾、作者决定；每项矛盾给 A/B 两个修复方案。
+5. 正文与章节记录卡分开输出。
+6. 不承诺签约、流量、收入、出版、绝对原创或平台审核通过。
+
+## 按需加载的参考文件
+
+以下文件在 `references/` 目录中，按任务需要读取，不一次性全部加载：
+
+- 选题/创意：`01_选题分析.md`、`02_创意开发.md`
+- 世界观/人物：`03_世界观设计.md`、`04_人物设计.md`
+- 结构/章节：`05_小说总纲.md`、`06_章节规划.md`
+- 正文/推进：`07_正文创作.md`、`08_剧情推进.md`
+- 连续性/文风：`09_连续性管理.md`、`10_文风控制.md`
+- 审稿/修改：`11_小说审稿.md`、`12_修改润色.md`
+- 风险/发布：`13_原创性风险检查.md`、`14_发布前检查.md`
+- 配置与模板：`config.md`、`人物档案模板.md`、`章节卡模板.md`、`章节记录卡模板.md`、`世界观模板.md`、`伏笔账本模板.md`、`项目快照模板.md`
+- 质量检查：`章节质量检查表.md`、`长篇连续性检查表.md`、`发布前检查表.md`
+- 验收：`验收测试.md`
+
+## 每次响应默认结构
+
+1. 当前阶段与目标
+2. 依据的已确认设定
+3. 本轮交付
+4. 冲突/假设/待决策项
+5. 下一步建议
+
+# NovelForge Skill
+
+结构化 AI 小说创作工作流 Skill。
+
+## 安装到 DeepSeek Harness（用户级）
+
+```bash
+git clone https://github.com/<你的用户名>/novelforge-skill.git
+mkdir -p ~/.dsh/skills
+cp -R novelforge-skill/skills/novelforge ~/.dsh/skills/
+
+
+---
+
+### 五、复制时的三个注意
+
+1. **不要多套目录**：`SKILL.md` 必须在 `skills/novelforge/` 下一层，不能是 `skills/novelforge/novelforge/SKILL.md`。
+2. **文件名保持原样**：references 里的中文文件名不要改名，`SKILL.md` 的索引按这些名字引用。
+3. **不要放入商业/平台文件**：`商品页文案草案.md`、`许可与更新政策模板.md`、`全平台适配总表.md`、`CHANGELOG.md` 等不放进 references，避免 Skill 加载时带入无关内容。
+
+推送到 GitHub 后，仓库地址就是 `https://github.com/<你的用户名>/novelforge-skill`，可供 `dsh-skill-install` 这类插件识别 `skills/novelforge/SKILL.md`。
